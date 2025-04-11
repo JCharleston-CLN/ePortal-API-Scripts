@@ -1,6 +1,17 @@
 #!/bin/bash
 
-# ePortal_Multi_Schedular.sh
+# ePortal_Schedular.sh
+# Script written by Jamie Charleston, Director of Global Sales Engineering, TuxCare
+#This script and its associated files are provided "as is", without warranty of any kind 
+# — express or implied. By using this code, you acknowledge that:
+
+# You are responsible for understanding what the script does before running it.
+# The author(s) are not liable for any damage, data loss, downtime, misconfiguration, 
+# or unintended behavior resulting from the use or misuse of this script.
+# This script may require modification to suit your environment and use case.
+# No guarantees are made regarding the correctness, performance, or security of the code.
+
+# Use responsibly and test thoroughly before using in a production environment.
 # Universal patchset scheduler and API tool with multi-endpoint and feed validation support
 
 CRON_FILE="/tmp/my_temp_cron_$$"
